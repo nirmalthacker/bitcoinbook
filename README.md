@@ -22,6 +22,12 @@ Mastering Bitcoin (Open Edition), based on the First Edition has been translated
 
 The book's source code, found in this repository, is kept synchronized with the print and ebook editions.
 
+# Building the Book
+
+## Mac OSX:
+
+`a2x -f epub --no-xmllint ./book.asciidoc`
+
 ## Mastering Bitcoin - First Edition
 
 The tags [Edition1Print1](https://github.com/bitcoinbook/bitcoinbook/releases/tag/Edition1Print1), [Edition1Print2](https://github.com/bitcoinbook/bitcoinbook/releases/tag/Edition1Print2) correspond to the two existing prints of the Mastering Bitcoin (First Edition) as published by O'Reilly Media.
